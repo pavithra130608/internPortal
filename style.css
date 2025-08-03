@@ -1,0 +1,24 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #f1c40f, #e67e22);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  text-align: center;
+}
+input, button {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.5rem;
+}
+.rewards ul {
+  list-style: none;
+  padding: 0;
+}
