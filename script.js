@@ -1,6 +1,6 @@
 // frontend/script.js
 //fetch('http://localhost:3000/api/user')
-fetch('https://internportal-backend.onrender.com/')
+fetch('https://internportal-backend.onrender.com/api/user')
   .then(res => res.json())
   .then(data => {
     document.getElementById('name').textContent = data.name;
